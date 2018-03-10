@@ -1,0 +1,107 @@
+body{
+  background:#ddd;
+}
+.flex_main
+{
+display:flex;
+flex-direction:row;
+
+}
+.profile_child
+{
+  width:30%;
+  background:#35F1F7;
+  padding:2%;
+  margin:2%;
+  }
+.content_child
+{
+  width:30%;
+  background:pink;
+  padding:2%;
+  margin:2%;
+}
+.profile_pic
+{
+  width:200px;
+  height:auto;
+  }
+  .profile_circle
+  {
+    border-radius:150%;
+    border:1px solid grey;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px;
+  }
+  @media only screen and (min-width:320px) and (max-width:480px)
+  {
+.flex_main
+  {
+  display:flex;
+  flex-direction:column;
+
+  }
+  .profile_child
+  {
+    width:100%;
+    background:#35F1F7;
+    padding:2%;
+    margin:2%;
+    }
+  .content_child
+  {
+    width:100%;
+    background:pink;
+    padding:2%;
+    margin:2%;
+  }
+}
+  @media only screen and (min-width:481px) and (max-width:768px)
+   {
+     .flex_main
+     {
+     display:flex;
+     flex-direction:column;
+
+     }
+     .profile_child
+     {
+       width:100%;
+       background:#35F1F7;
+       padding:2%;
+       margin:2%;
+       }
+     .content_child
+     {
+       width:100%;
+       background:pink;
+       padding:2%;
+       margin:2%;
+     }
+
+  }
+  @media only screen and (min-width:769px) and (max-width:1024px)
+  {
+    .flex_main
+    {
+    display:flex;
+    flex-direction:column;
+
+    }
+    .profile_child
+    {
+      width:100%;
+      background:#A535F7;
+      padding:2%;
+      margin:2%;
+      }
+    .content_child
+    {
+      width:100%;
+      background:pink;
+      padding:2%;
+      margin:2%;
+    }
+  }
